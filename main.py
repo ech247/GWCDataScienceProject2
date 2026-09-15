@@ -3,12 +3,13 @@
 import pandas as pd 
 #The matplotlib library is used to plot histograms and scatter plots
 import matplotlib.pyplot as plt
+
 # The GWCutilities has functions to help format data printed to the console
 import GWCutilities as util
 
 # Read a comma separated values (CSV) files into a variable
 # as a pandas DataFrame
-lwd=pd.read_csv("livwell175.csv")
+lwd=pd.read_csv("Empowering-Data-Final-Project-EmmaH/livwell175.csv")
 
 # Print out the number of rows and columns
 #print(lwd.shape)
